@@ -1,3 +1,77 @@
+@font-face {
+  font-family: fa-brand-400;
+  src: url(/assets/font/fa-brands-400.woff2);
+}
+@font-face {
+  font-family: fa-light-300;
+  src: url(/assets/font/fa-light-300.woff2);
+}
+@font-face {
+  font-family: fa-regular-400;
+  src: url(/assets/font/fa-regular-400.woff2);
+}
+@font-face {
+  font-family: fa-solid-900;
+  src: url(/assets/font/fa-solid-900.woff2);
+}
+:root {
+  font-size: 10px;
+  font-family: "fa-brand-400";
+}
 
+body {
+  margin: 0rem;
+}
+
+header {
+  background-image: url("/assets/img/slider/img_bg_slider_home01.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+header h1 {
+  color: white;
+}
+
+@font-face {
+  font-family: fa-brand-400;
+  src: url(/assets/font/fa-brands-400.woff2);
+}
+@font-face {
+  font-family: fa-light-300;
+  src: url(/assets/font/fa-light-300.woff2);
+}
+@font-face {
+  font-family: fa-regular-400;
+  src: url(/assets/font/fa-regular-400.woff2);
+}
+@font-face {
+  font-family: fa-solid-900;
+  src: url(/assets/font/fa-solid-900.woff2);
+}
+footer {
+  color: white;
+  background-image: url("/assets/img/footer/img-ng-footer.jpg");
+}
+footer img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+footer .foot_info {
+  display: flex;
+}
+footer .foot_copy_social {
+  display: flex;
+  justify-content: space-around;
+}
+footer .social_foot {
+  display: flex;
+}
 
 /*# sourceMappingURL=style.css.map */

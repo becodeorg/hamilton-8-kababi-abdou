@@ -1,0 +1,16 @@
+@import "fonts";
+
+@mixin basic_list($color){
+    text-decoration: none;
+    color:#{$color};
+    font-size: 2rem;
+}
+
+navbar{
+    logo{
+
+    }
+    ul{
+        @include basic_list(white);
+    }
+}

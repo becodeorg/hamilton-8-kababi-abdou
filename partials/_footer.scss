@@ -1,0 +1,28 @@
+$color-txt: white;
+@import "fonts";
+
+footer {
+    color: white;
+    background-image: url("/assets/img/footer/img-ng-footer.jpg");
+    & img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }  
+    & ul {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+    }
+    & .foot_info {
+        display: flex;
+    }
+    & .foot_copy_social {
+        display: flex;
+        justify-content: space-around;
+    }
+    & .social_foot {
+        display: flex;
+    }
+
+}

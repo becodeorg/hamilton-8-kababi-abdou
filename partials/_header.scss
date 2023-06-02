@@ -1,0 +1,26 @@
+
+@import "fonts";
+@mixin background_image_cover($url_image){
+    background-image: #{$url_image};
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+$width_header:100vw;
+
+:root{
+    font-size: 10px;
+    font-family: 'fa-brand-400';
+}
+body{
+    margin: 0rem;
+}
+header{
+    @include background_image_cover(url("/assets/img/slider/img_bg_slider_home01.jpg"));
+    h1{
+        color:white;
+
+    }
+}
