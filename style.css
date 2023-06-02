@@ -211,6 +211,9 @@ footer .social_foot {
   display: flex;
   flex-direction: row;
 }
+footer .social_foot .fa-brands:hover {
+  background-color: rgb(190, 161, 95);
+}
 footer hr {
   width: 88vw;
 }

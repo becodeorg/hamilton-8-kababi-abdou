@@ -74,8 +74,8 @@ footer {
         display: flex;
         flex-direction: row;
     }
-    & .social_foot .fa-brands {
-        
+    & .social_foot .fa-brands:hover {
+        background-color: $color-text-3;
     }
     & hr {
         width: 88vw;
