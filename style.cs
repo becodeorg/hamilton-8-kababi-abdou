@@ -71,9 +71,8 @@ nav address a:hover {
   color: rgb(190, 161, 95);
   cursor: pointer;
 }
-nav address a i {
-  margin: auto;
-  padding-right: 0.75vw;
+nav address a img {
+  width: 2vw;
 }
 nav address a p {
   padding-right: 2vw;
@@ -87,12 +86,9 @@ nav address button {
   border: none;
   padding: 1rem 2rem;
 }
-nav address button i {
-  padding-left: 1vw;
-}
 
 :root {
-  font-size: 0.71vw;
+  font-size: 10px;
   font-family: "fa-brand-400";
 }
 
@@ -118,12 +114,8 @@ header h1 {
   padding: 6.25vw 0 0 12.5vw;
   margin-top: 0%;
 }
-header h1 img {
-  width: 10vw;
-}
 header .bestQualityFoods {
   float: right;
-  padding-right: 5vw;
 }
 
 @font-face {
@@ -147,12 +139,6 @@ footer {
   color: white;
   background-image: url("/assets/img/footer/img-ng-footer.jpg");
   padding-top: 2rem;
-  /*   & ul > li span {
-     i { 
-      background-color: $color-text-3;
-
-     }
-  } */
 }
 footer img {
   display: flex;
@@ -165,43 +151,24 @@ footer .top_img {
 footer section .logo_cuilleur_foot {
   height: 5vw;
 }
-footer i {
-  width: 2vw;
-  height: 2vw;
+footer input {
+  height: 3vw;
+  width: 20vw;
+}
+footer span i {
+  background-color: rgb(190, 161, 95);
+  height: 5vw;
+  width: 4vw;
 }
 footer ul {
   display: flex;
   flex-direction: column;
   list-style: none;
 }
-footer ul .input_list_element {
-  display: flex;
-  align-items: center;
-  box-sizing: border-box;
-  height: 5vw;
-}
-footer ul .input_list_element input {
-  height: 5vw;
-  width: 20vw;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-footer ul .input_list_element button {
-  background-color: rgb(190, 161, 95);
-  height: 5vw;
-  width: 5vw;
-  border: none;
-}
-footer ul .input_list_element button .fa-arrow-right {
-  margin-top: 30%;
-}
-footer li {
-  padding: 2%;
-}
 footer .foot_info {
   display: flex;
   justify-content: space-around;
+  padding-bottom: 2rem;
 }
 footer .foot_copy_social {
   display: flex;
@@ -210,9 +177,10 @@ footer .foot_copy_social {
 footer .social_foot {
   display: flex;
   flex-direction: row;
+  margin: 0vw 2vw 2vw 2vw;
 }
 footer hr {
-  width: 88vw;
+  width: 85vw;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.cs.map */

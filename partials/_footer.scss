@@ -1,21 +1,70 @@
 $color-txt: white;
 @import "fonts";
+@import "colors";
 
 footer {
-    color: white;
+    font-size: larger;
+    color: $color-txt;
     background-image: url("/assets/img/footer/img-ng-footer.jpg");
+    padding-top: 2rem;
     & img {
         display: flex;
         justify-content: center;
         align-items: center;
-    }  
+    }
+    & .top_img {
+        margin: auto;
+    }
+    section{
+        & .logo_cuilleur_foot {
+
+            height: 5vw;
+        }
+    }
+    
+     /*   & ul > li span {
+       i { 
+        background-color: $color-text-3;
+        
+       }
+    } */
+    & i {
+        width: 2vw;
+        height: 2vw;
+    }
     & ul {
         display: flex;
         flex-direction: column;
         list-style: none;
+        .input_list_element{
+            display: flex;
+            align-items: center;
+            box-sizing: border-box;
+            height: 5vw;
+            input{
+                height: 5vw;
+                width: 20vw;
+                margin: 0;
+                padding:0;
+                box-sizing: border-box;
+            }
+            button{
+                background-color: $color-text-3;
+                height: 5vw;
+                width: 5vw;
+                border:none;
+                .fa-arrow-right{
+                    margin-top: 30%;
+                }
+            }
+        }
+    }
+    & li {
+        padding: 2%;
     }
     & .foot_info {
         display: flex;
+        justify-content: space-around;
     }
     & .foot_copy_social {
         display: flex;
@@ -23,6 +72,12 @@ footer {
     }
     & .social_foot {
         display: flex;
+        flex-direction: row;
     }
-
+    & .social_foot .fa-brands {
+        
+    }
+    & hr {
+        width: 88vw;
+    }
 }

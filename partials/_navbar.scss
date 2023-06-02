@@ -1,16 +1,72 @@
 @import "fonts";
+@import "colors";
 
-@mixin basic_list($color){
+
+
+@mixin basicUl($flex_direction){
+    display: flex;
+    flex-direction: #{$flex_direction};
+    font-size: 1.5rem;
+    list-style: none;
+}
+@mixin basic_link($color){
     text-decoration: none;
     color:#{$color};
-    font-size: 2rem;
+    font-style: normal;
+    font-size: 1.5rem;
+    padding-right: 2vw;
 }
-
-navbar{
-    logo{
-
-    }
+@mixin hover_pointer_color($color){
+    color: #{$color};
+    cursor: pointer;
+}
+nav {
+    display:flex;
+    justify-content: space-around;
+    padding-top: 2vw;
     ul{
-        @include basic_list(white);
+        @include basicUl(row);
+        li{
+            a{  
+                display: flex;
+                @include basic_link($color-text-1);
+                &:hover{
+                    color: $color-text-3;
+                    cursor: pointer;
+                }
+                &:active{
+                    color:$color-text-3;
+                }
+            }
+        }
+    }
+    address{
+        a{  display:flex;
+            flex-direction: row;
+            @include basic_link($color-text-1);
+            &:hover{
+                @include hover_pointer_color($color-text-3);
+            }
+            i{
+                margin: auto;
+                padding-right: 0.75vw;
+            }
+            p{
+                padding-right: 2vw;
+            }
+
+        }
+        button{
+            color:$color-text-1;
+            background-color: $color-text-3;
+            text-transform: uppercase;
+            font-weight: 600;
+            border-radius: 5px;
+            border: none;
+            padding:1rem 2rem;
+            i{
+                padding-left: 1vw;
+            }
+        }
     }
 }
