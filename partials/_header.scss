@@ -9,18 +9,20 @@
 @import "_navbar.scss";
 
 $width_header:100vw;
+$height_section:calc($width_header*0.68);
 $opacBlack:rgba(0, 0, 0, 1);
 $transparentBlack:transparent;
 :root{
     font-size: calc(0.71vw);
     font-family: 'fa-brand-400';
+    font-weight: 400;
 }
 body{
     margin: 0rem;
 }
 header{
     width: $width_header;
-    height: calc($width_header/2);
+    height:$height_section;
     @include background_image_cover(url("/assets/img/slider/img_bg_slider_home01.jpg"));
     
     h1{
