@@ -1,0 +1,13 @@
+
+#restaurant_gallery_photo {
+    
+    & .grid-container {
+        display: grid;
+        & img {
+            height: 22vw;
+        }
+    }
+    & ul li {
+        list-style-type: none;
+    }
+}

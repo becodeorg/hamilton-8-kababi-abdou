@@ -9,7 +9,7 @@
 @import "_navbar.scss";
 
 $width_header:100vw;
-$height_section:calc($width_header*0.68);
+$height_section:50vw;
 $opacBlack:rgba(0, 0, 0, 1);
 $transparentBlack:transparent;
 :root{
@@ -21,7 +21,6 @@ body{
     margin: 0rem;
 }
 header{
-    width: $width_header;
     height:$height_section;
     @include background_image_cover(url("/assets/img/slider/img_bg_slider_home01.jpg"));
     

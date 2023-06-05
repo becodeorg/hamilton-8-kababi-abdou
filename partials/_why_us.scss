@@ -1,0 +1,60 @@
+.why_us{
+    div{
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+    
+        .small_why_us_image{
+            width: 25.7rem;
+            padding-top: 5rem;
+        }
+        .salad{
+            height: 55.4rem;
+            position: relative;
+            bottom: 18rem;
+            padding: 3rem;
+            border-radius: 50%;
+            background-color: $color-first;
+        }
+    }
+    .about_us_titles{
+        .background_text_category{
+            position: absolute;
+            left: 1.5rem;
+            font-size: 15rem;
+            font-family: $Forum;
+            text-transform: uppercase;
+            color: $color-text-4;
+            z-index: 0;
+        }
+        h2{
+    
+            z-index: 2;
+            font-family: $Forum;
+            font-size: 3.5rem;
+            text-transform: uppercase;
+            font-weight: 400;
+            margin-bottom: none;
+        }
+        h3{
+            z-index: 2;
+            margin:0px;
+            font-family: $Open;
+            font-size: 1.8rem;
+            font-weight: 400;
+        }
+    }
+    article{
+        display: flex;
+        justify-content: center;
+        span{
+            p{
+                width:38.5rem;
+            }
+            button{
+            @include button_basic($color-text-1,$color-text-3)
+            }
+        }
+    }
+    
+}

@@ -1,0 +1,12 @@
+@mixin button_basic($color, $background-color){
+    color:#{$color};
+    background-color: #{$background-color};
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    padding:1rem 2rem;
+    i{
+        padding-left: 1vw;
+    }
+}

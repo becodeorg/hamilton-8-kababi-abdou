@@ -1,55 +1,76 @@
 
 section.category{
-    width: $width_header;
-    height: $height_section;
     margin: 0px;
-    background-image: url(/assets/img/banner/imgbgcategory.jpg);
-    background-size: contain;
+    padding: 13rem 0px 26rem;
+    background-image: url(/assets/img/banner/imgbgcategory.jpg) ;
+    background-size: cover;
     background-color: $color-second;
     background-blend-mode: multiply;
     display: flex;
     flex-direction: column;
     align-items: center;
+    box-sizing: border-box;
+    .background_text_category{
+        position: absolute;
+        left: 1.5rem;
+        font-size: 15rem;
+        font-family: $Forum;
+        text-transform: uppercase;
+        color: $color-text-4;
+        z-index: 0;
+    }
     h2{
-        font-family: $Frank;
-        font-size: 5rem;
+
+        z-index: 2;
+        font-family: $Forum;
+        font-size: 3.5rem;
         text-transform: uppercase;
         font-weight: 400;
+        margin-bottom: none;
     }
     h3{
+        z-index: 2;
+        margin:0px;
         font-family: $Open;
         font-size: 1.8rem;
         font-weight: 400;
-        padding-bottom: 100px;
+        padding-bottom: 10.5rem;
     }
     .category_cards{
         
         display: inline-grid;
         grid-template-columns: auto auto auto auto auto auto  ;
-        gap: 1.5rem;
+        gap: 2rem;
         article{
             box-sizing: border-box;
             display: flex;
             flex-direction: column;
+            justify-content: space-around;
             align-items: center;
-            width: 190px;
+            width: 15rem;
             height: 210px;
             background-color: $color-first;
             padding: 40px 15px 28px;
             
-            img{
+            span{
                 width:50px;
                 height:50px;
+                i{
+                    font-size: 50px;
+                    color: $color-text-3;
+                }
             }
             h6{
-                font-family: $Frank;
-                font-size: 24px;
+                font-family: $Forum;
+                line-height: 1.5em;
+                font-size: 20px;
                 font-weight: 400;
                 margin: 0 0 11px;
                 
             }
             a{
                 color:$color-text-2;
+                font-size: 15px;
             }
             
         }
