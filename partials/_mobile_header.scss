@@ -1,0 +1,65 @@
+
+@mixin background_image_cover($url_image){
+    background:linear-gradient(to bottom right, $opacBlack, $transparentBlack), #{$url_image};
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+@import "_navbar.scss";
+@import "_mixins.scss";
+
+$width_header:100vw;
+$height_section:50vw;
+$opacBlack:rgba(0, 0, 0, 1);
+$transparentBlack:transparent;
+
+@media only screen and (max-width: 410px){
+    :root{
+        font-size: 10px;
+        font-weight: 400;
+    }
+    body{
+        margin: 0rem;
+    }
+    header{
+        padding-bottom: 3rem;
+        @include background_image_cover(url("/assets/img/slider/img_bg_slider_home01.jpg"));
+        
+        h1{
+            position:relative;
+            color:white;
+            font-size: 8rem;
+            line-height: 150%;
+            letter-spacing: -0.45rem;
+            font-family: $Cinzel;
+            font-weight: 100;
+            text-transform: uppercase;
+            padding: calc($width_header/16) 0 0 calc($width_header/16);
+            margin: 0px;
+            
+            .bestQualityFoods{
+                position: absolute;
+                left:40vw;
+                z-index:0;
+                float: right;
+                padding-right: 5vw;
+                width:30vw;
+            }
+        }
+        
+        .explore_menu{
+            @include button_basic($color-text-1, transparent);
+            border: 1px solid grey ;
+            margin:3rem 0 0 calc($width_header/8);
+        }
+        nav{
+            ul{
+                display: none;
+            }
+            address{
+                display: none;
+            }
+
+        }
+    }
+}
