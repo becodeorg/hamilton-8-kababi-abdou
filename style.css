@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cinzel:wght@400;500;600;700;800;900&family=Forum&family=Frank+Ruhl+Libre:wght@300;400;500;600;700;800;900&family=Fraunces:wght@700;800;900&family=League+Spartan&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,800&family=Poppins&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=VT323&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cinzel:wght@400;500;600;700;800;900&family=Forum&family=Frank+Ruhl+Libre:wght@300;400;500;600;700;800;900&family=Fraunces:wght@700;800;900&family=League+Spartan&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,800&family=Poppins&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=VT323&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cinzel:wght@400;500;600;700;800;900&family=Forum&family=Frank+Ruhl+Libre:wght@300;400;500;600;700;800;900&family=Fraunces:wght@700;800;900&family=League+Spartan&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,800&family=Poppins&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=VT323&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cinzel:wght@400;500;600;700;800;900&family=Forum&family=Frank+Ruhl+Libre:wght@300;400;500;600;700;800;900&family=Fraunces:wght@700;800;900&family=League+Spartan&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,800&family=Poppins&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=VT323&display=swap");
 @font-face {
   font-family: fa-brand-400;
   src: url(/assets/font/fa-brands-400.woff2);
@@ -564,6 +565,111 @@ footer hr {
 #restaurant_gallery_photo button:hover {
   background-color: rgb(190, 161, 95);
   color: rgb(255, 255, 255);
+}
+
+.menu_offers {
+  background-color: rgb(250, 246, 240);
+  position: relative;
+  padding: 10.5rem 0rem;
+}
+.menu_offers .menu_offers_titles {
+  height: 15rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu_offers .menu_offers_titles .background_text_category {
+  position: absolute;
+  left: 1.5rem;
+  font-size: 15rem;
+  font-family: "Forum", cursive;
+  text-transform: uppercase;
+  color: rgb(245, 238, 227);
+  z-index: 0;
+}
+.menu_offers .menu_offers_titles h2 {
+  z-index: 2;
+  font-family: "Forum", cursive;
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: none;
+}
+.menu_offers .menu_offers_titles h3 {
+  z-index: 2;
+  margin: 0px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  padding-bottom: 10.5rem;
+}
+.menu_offers .menu_offers_titles span {
+  height: fit-content;
+}
+.menu_offers .menu_offers_titles .about_us_smaller_titles {
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.menu_offers .menu_offers_titles .about_us_smaller_titles h2 {
+  margin-top: 0px;
+}
+.menu_offers .menu_offers_titles .about_us_smaller_titles h3 {
+  padding-bottom: 0px;
+}
+.menu_offers .bread {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  z-index: 0;
+  max-height: 100%;
+  max-width: 50rem;
+}
+.menu_offers .steak {
+  position: absolute;
+  left: 0px;
+  bottom: -15rem;
+  z-index: 0;
+  max-height: 52.5rem;
+}
+.menu_offers ul {
+  position: relative;
+  z-index: 6;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 51.3rem 51.3rem;
+  grid-template-rows: 9.3rem 9.3rem 9.3rem 9.3rem;
+  gap: 2.3rem;
+}
+.menu_offers ul li {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  padding: 0rem 4.2rem;
+}
+.menu_offers ul li div h4 {
+  font-size: 2.5rem;
+  font-family: "Forum", cursive;
+  font-weight: 200;
+  margin: 0rem;
+}
+.menu_offers ul li div .subtitle_menu {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-top: 0.5rem;
+}
+.menu_offers ul li .prize {
+  font-size: 4.2rem;
+  font-family: "Forum", cursive;
+  font-weight: 400;
+  color: rgb(190, 161, 95);
 }
 
 /*# sourceMappingURL=style.css.map */

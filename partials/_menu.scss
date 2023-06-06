@@ -1,0 +1,90 @@
+@import "_colors.scss";
+@import "_mixins.scss";
+
+
+.menu_offers{
+    background-color: $color-second;
+    position:relative;
+    padding:10.5rem 0rem;
+    .menu_offers_titles{
+        @include section_header;
+        height: 15rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        span{
+            height:fit-content;
+        }
+        .about_us_smaller_titles{
+            z-index:2;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            h2{
+                margin-top:0px;           
+            }
+            h3{
+                padding-bottom: 0px;
+            }
+        }
+        
+    }
+    .bread{
+        position:absolute;
+        right: 0px;
+        top:0px;
+        z-index: 0;
+        max-height: 100%;
+        max-width: 50rem;
+    }
+    .steak{
+        position: absolute;
+        left:0px;
+        bottom:-15rem;
+        z-index:0;
+        max-height: 52.5rem;
+    }
+    ul{
+        position: relative;
+        z-index: 6;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 51.3rem 51.3rem;
+        grid-template-rows:9.3rem 9.3rem 9.3rem 9.3rem ;
+        gap:2.3rem;
+        li{
+            display: inline-flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            list-style: none;
+            background-color:$color-first;
+            border-radius: 5px;
+            padding:0rem 4.2rem;
+            
+            div{
+                h4{
+                    font-size: 2.5rem;
+                    font-family: $Forum;
+                    font-weight: 200;
+                    margin: 0rem;
+                }
+                .subtitle_menu{
+                    font-family: $Open;
+                    font-size:1.2rem ;
+                    font-weight:400 ;
+                    margin-top: 0.5rem;
+                }
+            }
+            .prize{
+                    font-size: 4.2rem;
+                    font-family: $Forum;
+                    font-weight: 400;
+                    color: $color-text-3;
+
+            }
+        }
+    }
+    
+}
