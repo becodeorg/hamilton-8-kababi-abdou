@@ -562,7 +562,6 @@
   }
   #restaurant_gallery_photo .grid-container img:hover {
     opacity: 0.5;
-    visibility: visible;
   }
   #restaurant_gallery_photo ul li {
     list-style-type: none;
