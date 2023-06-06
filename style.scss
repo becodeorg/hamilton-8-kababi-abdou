@@ -1,10 +1,17 @@
-@import "partials/header";
-@import "partials/category";
-@import "partials/latest_news";
-@import "partials/footer";
-@import "partials/our_chefs";
-@import "partials/why_us";
-@import "partials/restaurant_gallery";
-@import "partials/mixins";
-@import "partials/menu";
 
+@media only screen and (min-width: 768px){
+    @import "partials/header";
+    @import "partials/category";
+    @import "partials/latest_news";
+    @import "partials/footer";
+    @import "partials/our_chefs";
+    @import "partials/why_us";
+    @import "partials/restaurant_gallery";
+    @import "partials/mixins";
+    @import "partials/menu";
+}
+@media only screen and (max-width:410px){
+    @import "partials/mobile_header";
+    @import "partials/mobilecategory";
+    @import "partials/mobile_why_us";
+}

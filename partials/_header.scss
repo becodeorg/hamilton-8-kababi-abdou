@@ -1,11 +1,6 @@
 
 @import "fonts";
-@mixin background_image_cover($url_image){
-    background:linear-gradient(to bottom right, $opacBlack, $transparentBlack), #{$url_image};
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-}
+
 @import "_navbar.scss";
 @import "_mixins.scss";
 
@@ -13,41 +8,43 @@ $width_header:100vw;
 $height_section:50vw;
 $opacBlack:rgba(0, 0, 0, 1);
 $transparentBlack:transparent;
-:root{
-    font-size: calc(0.71vw);
-    font-family: 'fa-brand-400';
-    font-weight: 400;
-}
-body{
-    margin: 0rem;
-}
-header{
-    height:$height_section;
-    @include background_image_cover(url("/assets/img/slider/img_bg_slider_home01.jpg"));
-    
-    h1{
-        color:white;
-        width: calc($width_header/3);
-        font-size: 10rem;
-        font-family: $Cinzel;
-        font-weight: 100;
-        text-transform: uppercase;
-        padding: calc($width_header/16) 0 0 calc($width_header/8);
-        margin-top: 0%;
-        margin-bottom: 0px;
-        img{
-           width: 10vw;
+@media only screen and (min-width: 768px){
+    :root{
+        font-size: calc(0.71vw);
+        font-family: 'fa-brand-400';
+        font-weight: 400;
+    }
+    body{
+        margin: 0rem;
+    }
+    header{
+        height:$height_section;
+        @include background_image_cover(url("/assets/img/slider/img_bg_slider_home01.jpg"));
+        
+        h1{
+            color:white;
+            width: calc($width_header/3);
+            font-size: 10rem;
+            font-family: $Cinzel;
+            font-weight: 100;
+            text-transform: uppercase;
+            padding: calc($width_header/16) 0 0 calc($width_header/8);
+            margin-top: 0%;
+            margin-bottom: 0px;
+            img{
+            width: 10vw;
+            }
+
+
         }
-
-
-    }
-    .bestQualityFoods{
-        float: right;
-        padding-right: 5vw;
-    }
-    .explore_menu{
-        @include button_basic($color-text-1, transparent);
-        border: 1px solid grey ;
-        margin:3rem 0 0 calc($width_header/8);
+        .bestQualityFoods{
+            float: right;
+            padding-right: 5vw;
+        }
+        .explore_menu{
+            @include button_basic($color-text-1, transparent);
+            border: 1px solid grey ;
+            margin:3rem 0 0 calc($width_header/8);
+        }
     }
 }

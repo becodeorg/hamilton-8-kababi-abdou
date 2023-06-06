@@ -1,0 +1,60 @@
+
+@import "_mixins.scss";
+
+
+
+
+
+section.category{
+    margin: 0px;
+    padding: 3rem 0px 26rem;
+    background-image: url(/assets/img/banner/imgbgcategory.jpg) ;
+    background-size: contain;
+    background-color: $color-second;
+    background-blend-mode: multiply;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    @include section_header_mobile;
+    .category_cards{
+        
+        display: inline-grid;
+        grid-template-columns: 80% ;
+        gap: 2rem;
+        article{
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            width:80vw;
+            border-radius: 5px;
+            background-color: $color-first;
+            padding: 40px 15px 28px;
+            
+            span{
+                width:50px;
+                height:50px;
+                i{
+                    font-size: 50px;
+                    color: $color-text-3;
+                }
+            }
+            h6{
+                font-family: $Forum;
+                line-height: 1.5em;
+                font-size: 20px;
+                font-weight: 400;
+                margin: 0 0 11px;
+                
+            }
+            a{
+                color:$color-text-2;
+                font-size: 15px;
+            }
+            
+        }
+    }
+}
+

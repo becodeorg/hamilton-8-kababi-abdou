@@ -1,5 +1,12 @@
 @import "_colors.scss";
 
+@mixin background_image_cover($url_image){
+    background:linear-gradient(to bottom right, $opacBlack, $transparentBlack), #{$url_image};
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
 @mixin button_basic($color, $background-color){
     color:#{$color};
     background-color: #{$background-color};
@@ -36,6 +43,35 @@
         z-index: 2;
         font-family: $Forum;
         font-size: 3.5rem;
+        text-transform: uppercase;
+        font-weight: 400;
+        margin-bottom: none;
+    }
+    h3{
+        z-index: 2;
+        margin:0px;
+        font-family: $Open;
+        font-size: 1.8rem;
+        font-weight: 400;
+        padding-bottom: 10.5rem;
+    }
+    
+}
+
+@mixin section_header_mobile{
+    .background_text_category{
+        position: absolute;
+        font-size: 7rem;
+        font-family: $Forum;
+        text-transform: uppercase;
+        color: $color-text-4;
+        z-index: 0;
+    }
+    h2{
+        text-align: center;
+        z-index: 2;
+        font-family: $Forum;
+        font-size: 4rem;
         text-transform: uppercase;
         font-weight: 400;
         margin-bottom: none;
