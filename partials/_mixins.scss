@@ -1,3 +1,5 @@
+@import "_colors.scss";
+
 @mixin button_basic($color, $background-color){
     color:#{$color};
     background-color: #{$background-color};
@@ -10,6 +12,11 @@
     font-size: 1.2rem;
     i{
         padding-left: 1vw;
+    }
+    &:hover{
+        color:$color-text-3;
+        background-color:transparent;
+        cursor: pointer;
     }
 }
 
