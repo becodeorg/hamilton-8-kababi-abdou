@@ -7,6 +7,7 @@
     background-position: center center;
 }
 @import "_navbar.scss";
+@import "_mixins.scss";
 
 $width_header:100vw;
 $height_section:50vw;
@@ -33,6 +34,7 @@ header{
         text-transform: uppercase;
         padding: calc($width_header/16) 0 0 calc($width_header/8);
         margin-top: 0%;
+        margin-bottom: 0px;
         img{
            width: 10vw;
         }
@@ -42,5 +44,10 @@ header{
     .bestQualityFoods{
         float: right;
         padding-right: 5vw;
+    }
+    .explore_menu{
+        @include button_basic($color-text-1, transparent);
+        border: 1px solid grey ;
+        margin:3rem 0 0 calc($width_header/8);
     }
 }

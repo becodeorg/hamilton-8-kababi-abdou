@@ -86,7 +86,9 @@ nav address button {
   font-weight: 600;
   border-radius: 5px;
   border: none;
+  height: 5rem;
   padding: 1rem 2rem;
+  font-size: 1.2rem;
 }
 nav address button i {
   padding-left: 1vw;
@@ -118,6 +120,7 @@ header h1 {
   text-transform: uppercase;
   padding: 6.25vw 0 0 12.5vw;
   margin-top: 0%;
+  margin-bottom: 0px;
 }
 header h1 img {
   width: 10vw;
@@ -125,6 +128,22 @@ header h1 img {
 header .bestQualityFoods {
   float: right;
   padding-right: 5vw;
+}
+header .explore_menu {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-radius: 5px;
+  border: none;
+  height: 5rem;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  border: 1px solid grey;
+  margin: 3rem 0 0 12.5vw;
+}
+header .explore_menu i {
+  padding-left: 1vw;
 }
 
 section.category {
@@ -423,36 +442,62 @@ footer hr {
   border-radius: 50%;
   background-color: rgb(255, 255, 255);
 }
+.why_us .about_us_titles {
+  margin-top: -10rem;
+  display: flex;
+  align-items: center;
+}
 .why_us .about_us_titles .background_text_category {
   position: absolute;
   left: 1.5rem;
   font-size: 15rem;
   font-family: "Forum", cursive;
   text-transform: uppercase;
-  color: rgb(245, 238, 227);
+  color: rgb(250, 246, 240);
   z-index: 0;
 }
-.why_us .about_us_titles h2 {
+.why_us .about_us_titles .about_us_smaller_titles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.why_us .about_us_titles .about_us_smaller_titles h2 {
   z-index: 2;
   font-family: "Forum", cursive;
   font-size: 3.5rem;
   text-transform: uppercase;
   font-weight: 400;
-  margin-bottom: none;
+  margin: 0.5em;
 }
-.why_us .about_us_titles h3 {
+.why_us .about_us_titles .about_us_smaller_titles h3 {
   z-index: 2;
   margin: 0px;
   font-family: "Open Sans", sans-serif;
   font-size: 1.8rem;
   font-weight: 400;
+  margin-bottom: 3rem;
+}
+.why_us .about_us_titles img {
+  position: relative;
+  left: 20vw;
 }
 .why_us article {
   display: flex;
   justify-content: center;
+  align-items: center;
+  padding-bottom: 10.5rem;
+  padding-top: 5rem;
+}
+.why_us article img {
+  width: 38.5rem;
+  padding-right: 6.3rem;
 }
 .why_us article span p {
   width: 38.5rem;
+  font-family: "Forum", cursive;
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 150%;
 }
 .why_us article span button {
   color: rgb(255, 255, 255);
@@ -461,20 +506,64 @@ footer hr {
   font-weight: 600;
   border-radius: 5px;
   border: none;
+  height: 5rem;
   padding: 1rem 2rem;
+  font-size: 1.2rem;
 }
 .why_us article span button i {
   padding-left: 1vw;
 }
 
+#restaurant_gallery_photo {
+  padding-top: 3.0792917629vw;
+  padding-bottom: 3.0792917629vw;
+  text-align: center;
+}
+#restaurant_gallery_photo h2 {
+  font-size: 2vw;
+}
+#restaurant_gallery_photo p {
+  font-size: large;
+}
 #restaurant_gallery_photo .grid-container {
   display: grid;
+  grid-template-columns: 24.5rem 24.5rem 24.5rem 24.5rem;
+  gap: 1.3856812933vw;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5396458814vw;
+}
+#restaurant_gallery_photo .grid-container .grid_grand_image {
+  grid-column: 1/span 2;
+}
+#restaurant_gallery_photo .grid-container .grid_grand_image_1 {
+  grid-column: 3/span 2;
 }
 #restaurant_gallery_photo .grid-container img {
   height: 22vw;
+  min-width: 100%;
+}
+#restaurant_gallery_photo .grid-container img:hover {
+  opacity: 0.5;
 }
 #restaurant_gallery_photo ul li {
   list-style-type: none;
+}
+#restaurant_gallery_photo button {
+  background-color: rgb(255, 255, 255);
+  border-style: none;
+  padding: 0.7698229407vw;
+  border-radius: 0.1539645881vw;
+  border: 0.1539645881vw solid rgb(245, 238, 227);
+  max-height: 7.8125vh;
+  max-width: 16.9361046959vw;
+}
+#restaurant_gallery_photo button i {
+  padding-left: 0.3849114704vw;
+}
+#restaurant_gallery_photo button:hover {
+  background-color: rgb(190, 161, 95);
+  color: rgb(255, 255, 255);
 }
 
 /*# sourceMappingURL=style.css.map */

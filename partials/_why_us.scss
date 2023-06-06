@@ -3,6 +3,7 @@
         display: flex;
         align-items: flex-start;
         justify-content: center;
+        
     
         .small_why_us_image{
             width: 25.7rem;
@@ -18,38 +19,64 @@
         }
     }
     .about_us_titles{
+        margin-top:-10rem;
+        display: flex;
+        align-items: center;
         .background_text_category{
             position: absolute;
             left: 1.5rem;
             font-size: 15rem;
             font-family: $Forum;
             text-transform: uppercase;
-            color: $color-text-4;
+            color: $color-second;
             z-index: 0;
         }
-        h2{
+        .about_us_smaller_titles{
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+
+            h2{
     
-            z-index: 2;
-            font-family: $Forum;
-            font-size: 3.5rem;
-            text-transform: uppercase;
-            font-weight: 400;
-            margin-bottom: none;
+                z-index: 2;
+                font-family: $Forum;
+                font-size: 3.5rem;
+                text-transform: uppercase;
+                font-weight: 400;
+                margin:0.5em;
+            }
+            h3{
+                z-index: 2;
+                margin:0px;
+                font-family: $Open;
+                font-size: 1.8rem;
+                font-weight: 400;
+                margin-bottom: 3rem;
+            }
         }
-        h3{
-            z-index: 2;
-            margin:0px;
-            font-family: $Open;
-            font-size: 1.8rem;
-            font-weight: 400;
+        img{
+            position: relative;
+            left:20vw;
         }
+        
     }
     article{
         display: flex;
         justify-content: center;
+        align-items: center;
+        padding-bottom: 10.5rem;
+        padding-top: 5rem;
+        img{
+            width:38.5rem;
+            padding-right: 6.3rem;
+        }
         span{
             p{
-                width:38.5rem;
+                width: 38.5rem;
+                font-family: "Forum", cursive;
+                font-size: 2.5rem;
+                font-weight: 400;
+                line-height: 150%;
             }
             button{
             @include button_basic($color-text-1,$color-text-3)
