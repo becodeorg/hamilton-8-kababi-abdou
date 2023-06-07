@@ -1,8 +1,15 @@
 @import "fonts";
 @import "colors";
+@import "_mixins";
 
 
 #latest_news {
+    font-family: $Open;
+    .menu_offers_titles{
+        display: flex;
+        justify-content: center;
+        @include section_header_mobile;
+    }
     text-align: center;
     padding-top: 5vw;
 

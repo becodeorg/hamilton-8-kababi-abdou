@@ -1,8 +1,15 @@
 
+@import "_mixins.scss";
+
 #our_chefs {
     background-image: url("./assets/img/our-chefs/imgbg-ourchefs.jpg");
     color: $color-first;
     text-align: center;
+    .menu_offers_titles{
+        display: flex;
+        justify-content: flex-start;
+        @include section_header_mobile;
+    }
 
    
 
@@ -19,8 +26,6 @@
         & li {
             list-style: none;
             & img {
-                width: 70vw;
-                height: 70vw;
                 padding-top: 5vw;
             }
         }

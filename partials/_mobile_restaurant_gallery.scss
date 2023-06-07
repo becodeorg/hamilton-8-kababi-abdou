@@ -1,14 +1,17 @@
 
+@import "_mixins.scss";
+
 #restaurant_gallery_photo {
     padding-top: 3.079291762894534vw;
     padding-bottom: 3.079291762894534vw;
     text-align: center;
-    & h2 {
-        font-size: 6vw;
+    .menu_offers_titles{
+        position:relative;
+        display: flex;
+        justify-content: center;
+        @include section_header_mobile;
     }
-    & p {
-        font-size: large;
-    }
+    
     & .grid-container {
         display: flex;
         flex-direction: column;
