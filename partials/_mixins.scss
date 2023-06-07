@@ -1,5 +1,6 @@
 @import "_colors.scss";
 
+
 @mixin background_image_cover($url_image){
     background:linear-gradient(to bottom right, $opacBlack, $transparentBlack), #{$url_image};
     background-repeat: no-repeat;

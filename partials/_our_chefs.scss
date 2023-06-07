@@ -1,38 +1,40 @@
+@import "_mixins.scss";
+@import "_colors.scss";
+
+
 
 #our_chefs {
-    background-image: url("/assets/img/our-chefs/imgbg-ourchefs.jpg");
-    color: $color-first;
-    text-align: center;
-    height: 50vw;
-    padding-top: 8vw;
-    
-    & .background_text_gallery_our_chefs {
-        position: absolute;
-        left: 1.5rem;
-        font-size: 15rem;
-        font-family: "Forum", cursive;
-        text-transform: uppercase;
-        color: rgb(245, 238, 227);
-        z-index: 0;
-    }
-    & h2 {
-        font-size: 2vw;
-    }
-    & p {
-        font-size: 1.5vw;
-    }
+  background-image: url("/assets/img/our-chefs/imgbg-ourchefs.jpg");
+  color: $color-first;
+  text-align: center;
+  height: 50vw;
+  padding-top: 8vw;
 
-    & ul {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        & li {
-            list-style: none;
-            & img {
-                width: 20vw;
-                height: 27vw;
-                padding-top: 5vw;
-            }
-        }
+  .menu_offers_titles {
+    @include section_header;
+  }
+  & .background_text_category {
+    z-index: -1;
+  }
+
+  & h2 {
+    font-size: 2vw;
+  }
+  & p {
+    font-size: 1.5vw;
+  }
+
+  & ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    & li {
+      list-style: none;
+      & img {
+        width: 20vw;
+        height: 27vw;
+        padding-top: 5vw;
+      }
     }
+  }
 }
