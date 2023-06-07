@@ -14,17 +14,17 @@ section.category{
     box-sizing: border-box;
     @include section_header;
     .category_cards{
-        
         display: inline-grid;
-        grid-template-columns: auto auto auto auto auto auto  ;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
         gap: 2rem;
+        margin:0 auto 0 auto;
         article{
             box-sizing: border-box;
             display: flex;
             flex-direction: column;
             justify-content: space-around;
             align-items: center;
-            width: 15rem;
+            min-width: max-content;
             height: 210px;
             background-color: $color-first;
             padding: 40px 15px 28px;

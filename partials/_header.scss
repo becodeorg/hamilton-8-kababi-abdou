@@ -9,11 +9,7 @@ $height_section:50vw;
 $opacBlack:rgba(0, 0, 0, 1);
 $transparentBlack:transparent;
 @media only screen and (min-width: 768px){
-    :root{
-        font-size: calc(0.71vw);
-        font-family: 'fa-brand-400';
-        font-weight: 400;
-    }
+    
     body{
         margin: 0rem;
     }

@@ -1,5 +1,9 @@
 
 @media only screen and (min-width: 768px){
+    :root{
+        font-size: calc(0.71vw); /*10px*/
+        font-weight: 400;
+    }
     @import "partials/header";
     @import "partials/category";
     @import "partials/latest_news";
@@ -11,6 +15,7 @@
     @import "partials/menu";
 }
 @media only screen and (max-width:410px){
+    
     @import "partials/mobile_header";
     @import "partials/mobilecategory";
     @import "partials/mobile_why_us";
@@ -32,4 +37,5 @@
     @import "./partials/mobile_our_chefs";
     @import "./partials/mobile_latest_news";
     @import "./partials/mobile_footer";
+    @import "partials/mobile_menu";
 }

@@ -5,43 +5,41 @@
 .menu_offers{
     background-color: $color-second;
     position:relative;
-    padding:10.5rem 0rem;
+    padding:15.5rem 0rem;
     .menu_offers_titles{
-        @include section_header;
+
+        @include section_header_mobile;
         
+        .background_text_category{
+            color:$color-text-4;
+        }
+       
         display: flex;
         
         justify-content: center;
         
         .about_us_smaller_titles{
             z-index:2;
-            position:relative;
-            right:5rem;
-             
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
         }
         
     }
     .bread{
-        position:absolute;
-        right: 0px;
-        top:0px;
-        z-index: 0;
-        max-height: 100%;
-        max-width: 50rem;
+        display: none;
     }
     .steak{
-        position: absolute;
-        left:0px;
-        bottom:-15rem;
-        z-index:0;
-        max-height: 52.5rem;
+        display:none;
     }
     ul{
         position: relative;
         z-index: 6;
         display: grid;
         justify-content: center;
-        grid-template-columns: 51.3rem 51.3rem;
+        grid-template-columns: 90% ;
         grid-template-rows:9.3rem 9.3rem 9.3rem 9.3rem ;
         gap:2.3rem;
         li{
@@ -79,3 +77,4 @@
     }
     
 }
+

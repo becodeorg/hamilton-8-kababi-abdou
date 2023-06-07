@@ -19,9 +19,10 @@
         }
     }
     .about_us_titles{
+        @include section_header;
         margin-top:-10rem;
         display: flex;
-        align-items: center;
+        
         .background_text_category{
             position: absolute;
             left: 1.5rem;
@@ -40,10 +41,9 @@
     
                 z-index: 2;
                 font-family: $Forum;
-                font-size: 3.5rem;
+                
                 text-transform: uppercase;
-                font-weight: 400;
-                margin:0.5em;
+                
             }
             h3{
                 z-index: 2;
