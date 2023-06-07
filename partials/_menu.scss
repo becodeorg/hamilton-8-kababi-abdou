@@ -33,7 +33,7 @@
         position: absolute;
         left:0px;
         bottom:-15rem;
-        z-index:0;
+        z-index:1;
         max-height: 52.5rem;
     }
     ul{
@@ -45,6 +45,11 @@
         grid-template-rows:9.3rem 9.3rem 9.3rem 9.3rem ;
         gap:2.3rem;
         li{
+            &:hover{
+                border-style: dashed;
+                border-color: $color-text-3;
+                cursor: pointer;
+            }
             display: inline-flex;
             flex-direction: row;
             align-items: center;

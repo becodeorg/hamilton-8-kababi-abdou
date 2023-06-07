@@ -2,6 +2,8 @@
 @import "_colors";
 .why_us{
     div.why_us_images{
+        padding-left: 1vw;
+        padding-right: 1vw;
         padding-bottom: 7rem;
         background-image: url(/assets/img/banner/imgbgcategory.jpg);
         background-color: $color-second;
@@ -29,7 +31,7 @@
     }
     .about_us_titles{
         background: none;
-        padding:10vw 0vw;
+        padding-top:10vw;
         position: relative;
         display: flex;
         flex-direction: column;
@@ -47,9 +49,6 @@
             h3{
                 padding:0px;
             }
-            h2{
-                
-            }
         }
         
         img{
@@ -63,7 +62,6 @@
         justify-content: center;
         align-items: center;
         padding-bottom: 5rem;
-        padding-top: 5rem;
         img{
             max-width:100%;
             

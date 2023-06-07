@@ -7,17 +7,12 @@
     position:relative;
     padding:15.5rem 0rem;
     .menu_offers_titles{
-
         @include section_header_mobile;
-        
         .background_text_category{
             color:$color-text-4;
         }
-       
         display: flex;
-        
         justify-content: center;
-        
         .about_us_smaller_titles{
             z-index:2;
             display: flex;
@@ -35,14 +30,20 @@
         display:none;
     }
     ul{
+        padding:0px;
         position: relative;
         z-index: 6;
         display: grid;
         justify-content: center;
         grid-template-columns: 90% ;
-        grid-template-rows:9.3rem 9.3rem 9.3rem 9.3rem ;
+        grid-template-rows:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
         gap:2.3rem;
         li{
+            &:hover{
+                border-style: dashed;
+                border-color: $color-text-3;
+                cursor: pointer;
+            }
             display: inline-flex;
             flex-direction: row;
             align-items: center;
@@ -50,7 +51,7 @@
             list-style: none;
             background-color:$color-first;
             border-radius: 5px;
-            padding:0rem 4.2rem;
+            padding:0rem 2rem;
             
             div{
                 h4{
@@ -58,10 +59,11 @@
                     font-family: $Forum;
                     font-weight: 200;
                     margin: 0rem;
+                    text-align: center;
                 }
                 .subtitle_menu{
                     font-family: $Open;
-                    font-size:1.2rem ;
+                    font-size:1.5rem ;
                     font-weight:400 ;
                     margin-top: 0.5rem;
                 }
@@ -74,6 +76,7 @@
 
             }
         }
+        
     }
     
 }

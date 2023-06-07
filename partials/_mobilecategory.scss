@@ -16,13 +16,31 @@ section.category{
     flex-direction: column;
     align-items: center;
     box-sizing: border-box;
-    @include section_header_mobile;
+    .category_offers_titles{
+        padding-left: 2rem;
+        padding-right: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        @include section_header_mobile;
+        .smaller_titles{
+            text-align: center;
+        }
+    }
     .category_cards{
         
         display: inline-grid;
         grid-template-columns: 80% ;
         gap: 2rem;
         article{
+            &:hover{
+                background-color: $color-text-3;
+                color:white;
+                i{
+                    color:white;
+                }
+                cursor: pointer;
+            }
             box-sizing: border-box;
             display: flex;
             flex-direction: column;

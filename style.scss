@@ -14,8 +14,10 @@
     @import "partials/mixins";
     @import "partials/menu";
 }
-@media only screen and (max-width:410px){
-    
+@media only screen and (max-width:470px){
+    :root{
+        font-size: 2.5vw;
+    }
     @import "partials/mobile_header";
     @import "partials/mobilecategory";
     @import "partials/mobile_why_us";
