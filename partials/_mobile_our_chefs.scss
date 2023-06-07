@@ -1,0 +1,28 @@
+
+#our_chefs {
+    background-image: url("/assets/img/our-chefs/imgbg-ourchefs.jpg");
+    color: $color-first;
+    text-align: center;
+
+   
+
+    & h2 {
+        font-size: 6vw;
+    }
+    & p {
+        font-size: larger;
+    }
+
+    & ul {
+        display: flex;
+        flex-direction: column;
+        & li {
+            list-style: none;
+            & img {
+                width: 70vw;
+                height: 70vw;
+                padding-top: 5vw;
+            }
+        }
+    }
+}
