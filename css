@@ -255,15 +255,6 @@
     text-align: center;
     padding-top: 5vw;
   }
-  #latest_news .background_text_gallery_latest_news {
-    position: absolute;
-    left: 1.5rem;
-    font-size: 15rem;
-    font-family: "Forum", cursive;
-    text-transform: uppercase;
-    color: rgb(245, 238, 227);
-    z-index: 0;
-  }
   #latest_news h2 {
     font-size: 2vw;
   }
@@ -428,15 +419,6 @@
     height: 50vw;
     padding-top: 8vw;
   }
-  #our_chefs .background_text_gallery_our_chefs {
-    position: absolute;
-    left: 1.5rem;
-    font-size: 15rem;
-    font-family: "Forum", cursive;
-    text-transform: uppercase;
-    color: rgb(245, 238, 227);
-    z-index: 0;
-  }
   #our_chefs h2 {
     font-size: 2vw;
   }
@@ -569,7 +551,7 @@
   }
   #restaurant_gallery_photo p {
     font-size: large;
-    font-family: "Cinzel", serif;
+    font-family: "Frank Ruhl Libre", serif;
   }
   #restaurant_gallery_photo .grid-container {
     display: grid;
@@ -1300,4 +1282,4 @@
   }
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=css.map */
