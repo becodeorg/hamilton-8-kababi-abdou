@@ -15,7 +15,7 @@ $transparentBlack:transparent;
     }
     header{
         height:$height_section;
-        @include background_image_cover(url("/assets/img/slider/img_bg_slider_home01.jpg"));
+        @include background_image_cover(url("./assets/img/slider/img_bg_slider_home01.jpg"));
         
         h1{
             color:white;

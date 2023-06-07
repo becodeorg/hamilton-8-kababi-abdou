@@ -22,7 +22,7 @@ $transparentBlack:transparent;
     header{
         width:$width_header;
         padding-bottom: 3rem;
-        @include background_image_cover(url("/assets/img/slider/img_bg_slider_home01.jpg"));
+        @include background_image_cover(url("./assets/img/slider/img_bg_slider_home01.jpg"));
         
         h1{
             position:relative;

@@ -5,7 +5,7 @@ $color-txt: white;
 footer {
     font-size: larger;
     color: $color-txt;
-    background-image: url("/assets/img/footer/img-ng-footer.jpg");
+    background-image: url("./assets/img/footer/img-ng-footer.jpg");
     padding-top: 2rem;
     & img {
         display: flex;
