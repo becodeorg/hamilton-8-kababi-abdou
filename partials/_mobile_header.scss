@@ -14,10 +14,7 @@ $opacBlack:rgba(0, 0, 0, 1);
 $transparentBlack:transparent;
 
 @media only screen and (max-width: 410px){
-    :root{
-        font-size: 10px;
-        font-weight: 400;
-    }
+    
     body{
         margin: 0rem;
     }

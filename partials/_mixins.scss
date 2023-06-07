@@ -28,7 +28,10 @@
 }
 
 
+
+
 @mixin section_header{
+    
     .background_text_category{
         position: absolute;
         left: 1.5rem;
@@ -42,9 +45,9 @@
 
         z-index: 2;
         font-family: $Forum;
-        font-size: 3.5rem;
+        font-size: 4.5rem;
         text-transform: uppercase;
-        font-weight: 400;
+        font-weight: 200;
         margin-bottom: none;
     }
     h3{
@@ -59,30 +62,33 @@
 }
 
 @mixin section_header_mobile{
+    margin-bottom: 10.5rem;
     .background_text_category{
         position: absolute;
         font-size: 7rem;
         font-family: $Forum;
         text-transform: uppercase;
-        color: $color-text-4;
+        color:$color-text-5;
         z-index: 0;
     }
     h2{
         text-align: center;
         z-index: 2;
+        line-height: 8rem;
+        letter-spacing: -0.15rem;
         font-family: $Forum;
-        font-size: 4rem;
+        font-size: 5rem;
         text-transform: uppercase;
-        font-weight: 400;
-        margin-bottom: none;
+        font-weight: 200;
+        margin:0px 0px 5rem ;
     }
     h3{
         z-index: 2;
         margin:0px;
         font-family: $Open;
         font-size: 1.8rem;
-        font-weight: 400;
-        padding-bottom: 10.5rem;
+        font-weight: 300;
+        
     }
     
 }

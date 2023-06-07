@@ -1,8 +1,11 @@
 @import "_fonts";
 @import "_colors";
 .why_us{
-    div{
+    div.why_us_images{
+        padding-bottom: 7rem;
         background-image: url(/assets/img/banner/imgbgcategory.jpg);
+        background-color: $color-second;
+        background-blend-mode: multiply;
         background-size: contain;
         display: flex;
         flex-direction: column;
@@ -13,6 +16,8 @@
         .small_why_us_image{
             max-width: 100vw;
             padding-top: 5rem;
+            justify-self: center;
+            align-self: center;
         }
         .salad{
            max-width: 100vw;
@@ -23,6 +28,7 @@
         }
     }
     .about_us_titles{
+        background: none;
         padding:10vw 0vw;
         position: relative;
         display: flex;
@@ -42,7 +48,7 @@
                 padding:0px;
             }
             h2{
-                margin:0px;
+                
             }
         }
         
@@ -53,21 +59,24 @@
     }
     article{
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding-bottom: 10.5rem;
+        padding-bottom: 5rem;
         padding-top: 5rem;
         img{
-            width:38.5rem;
-            padding-right: 6.3rem;
+            max-width:100%;
+            
         }
         span{
+            padding:3rem;
             p{
-                width: 38.5rem;
-                font-family: "Forum", cursive;
+                
+                font-family: $Forum;
                 font-size: 2.5rem;
-                font-weight: 400;
+                font-weight:lighter;
                 line-height: 150%;
+                
             }
             button{
             @include button_basic($color-text-1,$color-text-3)
