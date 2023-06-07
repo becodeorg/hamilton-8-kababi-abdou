@@ -8,23 +8,24 @@
     padding-bottom: 3.079291762894534vw;
     text-align: center;
 
+
     .menu_offers_titles {
         @include section_header;
     }
+    
     & .background_text_category {
-        position: relative;
+        position: absolute;
         z-index: -1;
     }
+    
 
     & h2 {
         font-size: 2vw;
-        font-family: $Cinzel;
         position: relative;
         z-index: 3;
     }
     & h3 {
         font-size: large;
-        font-family: $Cinzel;
         position: relative;
         z-index: 3;
     }
