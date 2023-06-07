@@ -12,6 +12,9 @@
 
   .menu_offers_titles {
     @include section_header;
+    .background_text_category{
+      color:rgba(0, 0, 0, 0.623);
+    }
   }
   & .background_text_category {
     position: relative;
@@ -38,7 +41,6 @@
       & img {
         width: 20vw;
         height: 27vw;
-        padding-top: 5vw;
       }
     }
   }

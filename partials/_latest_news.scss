@@ -1,11 +1,17 @@
 @import "fonts";
 @import "colors";
+@import "_mixins.scss";
 
 
 
 #latest_news {
     text-align: center;
     padding-top: 5vw;
+    .menu_offers_titles{
+        display: flex;
+        justify-content: center;
+        @include section_header;
+    }
     
     & .background_text_gallery_latest_news {
         position: absolute;
@@ -16,15 +22,6 @@
         color: rgb(245, 238, 227);
         z-index: 0;
     }
-    
-
-    & h2 {
-        font-size: 2vw;  
-    }
-    & p {
-        font-size: large;
-    }
-
     & li {
         list-style-type: none;
     }
