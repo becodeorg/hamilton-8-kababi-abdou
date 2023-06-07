@@ -1,0 +1,19 @@
+{
+  "name": "hamilton-8-kababi-abdou",
+  "version": "1.0.0",
+  "description": "[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/kMR8HjA5)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/becodeorg/hamilton-8-kababi-abdou.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/becodeorg/hamilton-8-kababi-abdou/issues"
+  },
+  "homepage": "https://github.com/becodeorg/hamilton-8-kababi-abdou#readme"
+}

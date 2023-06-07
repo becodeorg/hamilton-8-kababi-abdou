@@ -1,0 +1,82 @@
+@import "fonts";
+@import "colors";
+
+
+#latest_news {
+    text-align: center;
+    padding-top: 5vw;
+
+    & h2 {
+        font-size: 6vw;  
+    }
+    & p {
+        font-size: large;
+    }
+
+    & li {
+        list-style-type: none;
+    }
+    & .brand_img {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 5vw;
+        & li img {
+            height: 10vw;
+        }
+    }
+
+    & button {
+        width: 20vw;
+        height: 8vw;
+        border-style: none;
+        background-color: $color-first;
+        border-radius: 1rem;
+        font-size: 2vw;
+        margin: 5vw;
+        
+      /*  & i {
+            padding-left: 1rem;
+        } */
+    }
+    & button:hover {
+        background-color: $color-text-3;
+    }
+
+    & .img_info_button {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        & span {
+            display: flex;
+            justify-content: space-around;
+            
+        }
+    }
+    & .img_info_button_1 { 
+        justify-content: flex-start;
+        background-color: $color-text-4;
+        
+
+    }
+    & .img_info_button_2 {
+        justify-content: center;
+        background-color: $color-text-4;
+        
+
+    }
+    & .img_info_button_3 {
+        justify-content: flex-end;
+        background-color: $color-text-4;
+      
+
+    }
+
+    & .img_info_button img {
+        align-items: center;
+        justify-content: center;
+        width: 85vw;
+        height: 60vw;
+    }
+}

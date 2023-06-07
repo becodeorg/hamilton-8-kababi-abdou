@@ -1,13 +1,27 @@
-
+ 
 #restaurant_gallery_photo {
     padding-top: 3.079291762894534vw;
     padding-bottom: 3.079291762894534vw;
     text-align: center;
+
+    & .background_text_gallery {
+        position: absolute;
+        left: 1.5rem;
+        font-size: 15rem;
+        font-family: "Forum", cursive;
+        text-transform: uppercase;
+        color: rgb(245, 238, 227);
+        z-index: 0;
+    }
+
+
     & h2 {
         font-size: 2vw;
+        font-family: $Cinzel;
     }
     & p {
         font-size: large;
+        font-family: $Cinzel;
     }
     & .grid-container {
         display: grid;

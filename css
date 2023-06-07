@@ -1,0 +1,1285 @@
+@media only screen and (min-width: 768px) {
+  @font-face {
+    font-family: fa-brand-400;
+    src: url(/assets/font/fa-brands-400.woff2);
+  }
+  @font-face {
+    font-family: fa-light-300;
+    src: url(/assets/font/fa-light-300.woff2);
+  }
+  @font-face {
+    font-family: fa-regular-400;
+    src: url(/assets/font/fa-regular-400.woff2);
+  }
+  @font-face {
+    font-family: fa-solid-900;
+    src: url(/assets/font/fa-solid-900.woff2);
+  }
+  @font-face {
+    font-family: fa-brand-400;
+    src: url(/assets/font/fa-brands-400.woff2);
+  }
+  @font-face {
+    font-family: fa-light-300;
+    src: url(/assets/font/fa-light-300.woff2);
+  }
+  @font-face {
+    font-family: fa-regular-400;
+    src: url(/assets/font/fa-regular-400.woff2);
+  }
+  @font-face {
+    font-family: fa-solid-900;
+    src: url(/assets/font/fa-solid-900.woff2);
+  }
+  @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cinzel:wght@400;500;600;700;800;900&family=Forum&family=Frank+Ruhl+Libre:wght@300;400;500;600;700;800;900&family=Fraunces:wght@700;800;900&family=League+Spartan&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,800&family=Poppins&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=VT323&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cinzel:wght@400;500;600;700;800;900&family=Forum&family=Frank+Ruhl+Libre:wght@300;400;500;600;700;800;900&family=Fraunces:wght@700;800;900&family=League+Spartan&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,800&family=Poppins&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=VT323&display=swap");
+  nav {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2vw;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5rem;
+    list-style: none;
+  }
+  nav ul li a {
+    display: flex;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    font-size: 1.5rem;
+    padding-right: 2vw;
+  }
+  nav ul li a:hover {
+    color: rgb(190, 161, 95);
+    cursor: pointer;
+  }
+  nav ul li a:active {
+    color: rgb(190, 161, 95);
+  }
+  nav address a {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    font-size: 1.5rem;
+    padding-right: 2vw;
+  }
+  nav address a:hover {
+    color: rgb(190, 161, 95);
+    cursor: pointer;
+  }
+  nav address a i {
+    margin: auto;
+    padding-right: 0.75vw;
+  }
+  nav address a p {
+    padding-right: 2vw;
+  }
+  nav address button {
+    color: rgb(255, 255, 255);
+    background-color: rgb(190, 161, 95);
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    height: 5rem;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+  }
+  nav address button i {
+    padding-left: 1vw;
+  }
+  nav address button:hover {
+    color: rgb(190, 161, 95);
+    background-color: transparent;
+    cursor: pointer;
+  }
+  @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cinzel:wght@400;500;600;700;800;900&family=Forum&family=Frank+Ruhl+Libre:wght@300;400;500;600;700;800;900&family=Fraunces:wght@700;800;900&family=League+Spartan&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,800&family=Poppins&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=VT323&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cinzel:wght@400;500;600;700;800;900&family=Forum&family=Frank+Ruhl+Libre:wght@300;400;500;600;700;800;900&family=Fraunces:wght@700;800;900&family=League+Spartan&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,800&family=Poppins&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=VT323&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cinzel:wght@400;500;600;700;800;900&family=Forum&family=Frank+Ruhl+Libre:wght@300;400;500;600;700;800;900&family=Fraunces:wght@700;800;900&family=League+Spartan&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,800&family=Poppins&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=VT323&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cinzel:wght@400;500;600;700;800;900&family=Forum&family=Frank+Ruhl+Libre:wght@300;400;500;600;700;800;900&family=Fraunces:wght@700;800;900&family=League+Spartan&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,800&family=Poppins&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=VT323&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cinzel:wght@400;500;600;700;800;900&family=Forum&family=Frank+Ruhl+Libre:wght@300;400;500;600;700;800;900&family=Fraunces:wght@700;800;900&family=League+Spartan&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,800&family=Poppins&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=VT323&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cinzel:wght@400;500;600;700;800;900&family=Forum&family=Frank+Ruhl+Libre:wght@300;400;500;600;700;800;900&family=Fraunces:wght@700;800;900&family=League+Spartan&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,800&family=Poppins&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=VT323&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cinzel:wght@400;500;600;700;800;900&family=Forum&family=Frank+Ruhl+Libre:wght@300;400;500;600;700;800;900&family=Fraunces:wght@700;800;900&family=League+Spartan&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,800&family=Poppins&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=VT323&display=swap");
+}
+@media only screen and (min-width: 768px) and (min-width: 768px) {
+  :root {
+    font-size: 0.71vw;
+    font-family: "fa-brand-400";
+    font-weight: 400;
+  }
+  body {
+    margin: 0rem;
+  }
+  header {
+    height: 50vw;
+    background: linear-gradient(to bottom right, rgb(0, 0, 0), transparent), url("/assets/img/slider/img_bg_slider_home01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  header h1 {
+    color: white;
+    width: 33.3333333333vw;
+    font-size: 10rem;
+    font-family: "Cinzel", serif;
+    font-weight: 100;
+    text-transform: uppercase;
+    padding: 6.25vw 0 0 12.5vw;
+    margin-top: 0%;
+    margin-bottom: 0px;
+  }
+  header h1 img {
+    width: 10vw;
+  }
+  header .bestQualityFoods {
+    float: right;
+    padding-right: 5vw;
+  }
+  header .explore_menu {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    height: 5rem;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border: 1px solid grey;
+    margin: 3rem 0 0 12.5vw;
+  }
+  header .explore_menu i {
+    padding-left: 1vw;
+  }
+  header .explore_menu:hover {
+    color: rgb(190, 161, 95);
+    background-color: transparent;
+    cursor: pointer;
+  }
+}
+@media only screen and (min-width: 768px) {
+  section.category {
+    margin: 0px;
+    padding: 13rem 0px 26rem;
+    background-image: url(/assets/img/banner/imgbgcategory.jpg);
+    background-size: cover;
+    background-color: rgb(250, 246, 240);
+    background-blend-mode: multiply;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  section.category .background_text_category {
+    position: absolute;
+    left: 1.5rem;
+    font-size: 15rem;
+    font-family: "Forum", cursive;
+    text-transform: uppercase;
+    color: rgb(245, 238, 227);
+    z-index: 0;
+  }
+  section.category h2 {
+    z-index: 2;
+    font-family: "Forum", cursive;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: none;
+  }
+  section.category h3 {
+    z-index: 2;
+    margin: 0px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    padding-bottom: 10.5rem;
+  }
+  section.category .category_cards {
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    gap: 2rem;
+  }
+  section.category .category_cards article {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 15rem;
+    height: 210px;
+    background-color: rgb(255, 255, 255);
+    padding: 40px 15px 28px;
+  }
+  section.category .category_cards article span {
+    width: 50px;
+    height: 50px;
+  }
+  section.category .category_cards article span i {
+    font-size: 50px;
+    color: rgb(190, 161, 95);
+  }
+  section.category .category_cards article h6 {
+    font-family: "Forum", cursive;
+    line-height: 1.5em;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 0 11px;
+  }
+  section.category .category_cards article a {
+    color: rgb(29, 29, 29);
+    font-size: 15px;
+  }
+  @font-face {
+    font-family: fa-brand-400;
+    src: url(/assets/font/fa-brands-400.woff2);
+  }
+  @font-face {
+    font-family: fa-light-300;
+    src: url(/assets/font/fa-light-300.woff2);
+  }
+  @font-face {
+    font-family: fa-regular-400;
+    src: url(/assets/font/fa-regular-400.woff2);
+  }
+  @font-face {
+    font-family: fa-solid-900;
+    src: url(/assets/font/fa-solid-900.woff2);
+  }
+  #latest_news {
+    text-align: center;
+    padding-top: 5vw;
+  }
+  #latest_news h2 {
+    font-size: 2vw;
+  }
+  #latest_news p {
+    font-size: large;
+  }
+  #latest_news li {
+    list-style-type: none;
+  }
+  #latest_news .brand_img {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5vw;
+  }
+  #latest_news .brand_img li img {
+    height: 7vw;
+  }
+  #latest_news button {
+    width: 10vw;
+    height: 3vw;
+    border-style: none;
+    background-color: rgb(255, 255, 255);
+    margin-top: 20%;
+    border-radius: 1rem;
+    font-size: 1vw;
+    /*  & i {
+          padding-left: 1rem;
+      } */
+  }
+  #latest_news button:hover {
+    background-color: rgb(190, 161, 95);
+  }
+  #latest_news .img_info_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #latest_news .img_info_button span {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 5%;
+  }
+  #latest_news .img_info_button_1 {
+    justify-content: flex-start;
+    background-color: rgb(245, 238, 227);
+    width: 25vw;
+    height: 30vw;
+  }
+  #latest_news .img_info_button_2 {
+    justify-content: center;
+    background-color: rgb(245, 238, 227);
+    width: 25vw;
+    height: 30vw;
+  }
+  #latest_news .img_info_button_3 {
+    justify-content: flex-end;
+    background-color: rgb(245, 238, 227);
+    width: 25vw;
+    height: 30vw;
+  }
+  #latest_news .img_info_button img {
+    width: 25vw;
+  }
+  @font-face {
+    font-family: fa-brand-400;
+    src: url(/assets/font/fa-brands-400.woff2);
+  }
+  @font-face {
+    font-family: fa-light-300;
+    src: url(/assets/font/fa-light-300.woff2);
+  }
+  @font-face {
+    font-family: fa-regular-400;
+    src: url(/assets/font/fa-regular-400.woff2);
+  }
+  @font-face {
+    font-family: fa-solid-900;
+    src: url(/assets/font/fa-solid-900.woff2);
+  }
+  footer {
+    font-size: larger;
+    color: white;
+    background-image: url("/assets/img/footer/img-ng-footer.jpg");
+    padding-top: 2rem;
+    /*   & ul > li span {
+       i { 
+        background-color: $color-text-3;
+
+       }
+    } */
+  }
+  footer img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  footer .top_img {
+    margin: auto;
+    height: 6vw;
+  }
+  footer section .logo_cuilleur_foot {
+    height: 5vw;
+  }
+  footer i {
+    width: 2vw;
+    height: 2vw;
+  }
+  footer ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+  }
+  footer ul .input_list_element {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    height: 5vw;
+  }
+  footer ul .input_list_element input {
+    height: 5vw;
+    width: 20vw;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  footer ul .input_list_element button {
+    background-color: rgb(190, 161, 95);
+    height: 5vw;
+    width: 5vw;
+    border: none;
+  }
+  footer ul .input_list_element button .fa-arrow-right {
+    margin-top: 30%;
+  }
+  footer li {
+    padding: 2%;
+  }
+  footer .foot_info {
+    display: flex;
+    justify-content: space-around;
+  }
+  footer .foot_copy_social {
+    display: flex;
+    justify-content: space-around;
+  }
+  footer .social_foot {
+    display: flex;
+    flex-direction: row;
+  }
+  footer .social_foot .fa-brands:hover {
+    background-color: rgb(190, 161, 95);
+  }
+  footer hr {
+    width: 88vw;
+  }
+  #our_chefs {
+    background-image: url("/assets/img/our-chefs/imgbg-ourchefs.jpg");
+    color: rgb(255, 255, 255);
+    text-align: center;
+    height: 50vw;
+    padding-top: 8vw;
+  }
+  #our_chefs h2 {
+    font-size: 2vw;
+  }
+  #our_chefs p {
+    font-size: 1.5vw;
+  }
+  #our_chefs ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  #our_chefs ul li {
+    list-style: none;
+  }
+  #our_chefs ul li img {
+    width: 20vw;
+    height: 27vw;
+    padding-top: 5vw;
+  }
+  .why_us div {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .why_us div .small_why_us_image {
+    width: 25.7rem;
+    padding-top: 5rem;
+  }
+  .why_us div .salad {
+    height: 55.4rem;
+    position: relative;
+    bottom: 18rem;
+    padding: 3rem;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+  }
+  .why_us .about_us_titles {
+    margin-top: -10rem;
+    display: flex;
+    align-items: center;
+  }
+  .why_us .about_us_titles .background_text_category {
+    position: absolute;
+    left: 1.5rem;
+    font-size: 15rem;
+    font-family: "Forum", cursive;
+    text-transform: uppercase;
+    color: rgb(250, 246, 240);
+    z-index: 0;
+  }
+  .why_us .about_us_titles .about_us_smaller_titles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .why_us .about_us_titles .about_us_smaller_titles h2 {
+    z-index: 2;
+    font-family: "Forum", cursive;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 0.5em;
+  }
+  .why_us .about_us_titles .about_us_smaller_titles h3 {
+    z-index: 2;
+    margin: 0px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-bottom: 3rem;
+  }
+  .why_us .about_us_titles img {
+    position: relative;
+    left: 20vw;
+  }
+  .why_us article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10.5rem;
+    padding-top: 5rem;
+  }
+  .why_us article img {
+    width: 38.5rem;
+    padding-right: 6.3rem;
+  }
+  .why_us article span p {
+    width: 38.5rem;
+    font-family: "Forum", cursive;
+    font-size: 2.5rem;
+    font-weight: 400;
+    line-height: 150%;
+  }
+  .why_us article span button {
+    color: rgb(255, 255, 255);
+    background-color: rgb(190, 161, 95);
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    height: 5rem;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+  }
+  .why_us article span button i {
+    padding-left: 1vw;
+  }
+  .why_us article span button:hover {
+    color: rgb(190, 161, 95);
+    background-color: transparent;
+    cursor: pointer;
+  }
+  #restaurant_gallery_photo {
+    padding-top: 3.0792917629vw;
+    padding-bottom: 3.0792917629vw;
+    text-align: center;
+  }
+  #restaurant_gallery_photo .background_text_gallery {
+    position: absolute;
+    left: 1.5rem;
+    font-size: 15rem;
+    font-family: "Forum", cursive;
+    text-transform: uppercase;
+    color: rgb(245, 238, 227);
+    z-index: 0;
+  }
+  #restaurant_gallery_photo h2 {
+    font-size: 2vw;
+    font-family: "Cinzel", serif;
+  }
+  #restaurant_gallery_photo p {
+    font-size: large;
+    font-family: "Frank Ruhl Libre", serif;
+  }
+  #restaurant_gallery_photo .grid-container {
+    display: grid;
+    grid-template-columns: 24.5rem 24.5rem 24.5rem 24.5rem;
+    gap: 1.3856812933vw;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5396458814vw;
+  }
+  #restaurant_gallery_photo .grid-container .grid_grand_image {
+    grid-column: 1/span 2;
+  }
+  #restaurant_gallery_photo .grid-container .grid_grand_image_1 {
+    grid-column: 3/span 2;
+  }
+  #restaurant_gallery_photo .grid-container img {
+    height: 22vw;
+    min-width: 100%;
+  }
+  #restaurant_gallery_photo .grid-container img:hover {
+    opacity: 0.5;
+  }
+  #restaurant_gallery_photo ul li {
+    list-style-type: none;
+  }
+  #restaurant_gallery_photo button {
+    background-color: rgb(255, 255, 255);
+    border-style: none;
+    padding: 0.7698229407vw;
+    border-radius: 0.1539645881vw;
+    border: 0.1539645881vw solid rgb(245, 238, 227);
+    max-height: 7.8125vh;
+    max-width: 16.9361046959vw;
+  }
+  #restaurant_gallery_photo button i {
+    padding-left: 0.3849114704vw;
+  }
+  #restaurant_gallery_photo button:hover {
+    background-color: rgb(190, 161, 95);
+    color: rgb(255, 255, 255);
+  }
+  .menu_offers {
+    background-color: rgb(250, 246, 240);
+    position: relative;
+    padding: 10.5rem 0rem;
+  }
+  .menu_offers .menu_offers_titles {
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .menu_offers .menu_offers_titles .background_text_category {
+    position: absolute;
+    left: 1.5rem;
+    font-size: 15rem;
+    font-family: "Forum", cursive;
+    text-transform: uppercase;
+    color: rgb(245, 238, 227);
+    z-index: 0;
+  }
+  .menu_offers .menu_offers_titles h2 {
+    z-index: 2;
+    font-family: "Forum", cursive;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: none;
+  }
+  .menu_offers .menu_offers_titles h3 {
+    z-index: 2;
+    margin: 0px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    padding-bottom: 10.5rem;
+  }
+  .menu_offers .menu_offers_titles span {
+    height: fit-content;
+  }
+  .menu_offers .menu_offers_titles .about_us_smaller_titles {
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu_offers .menu_offers_titles .about_us_smaller_titles h2 {
+    margin-top: 0px;
+  }
+  .menu_offers .menu_offers_titles .about_us_smaller_titles h3 {
+    padding-bottom: 0px;
+  }
+  .menu_offers .bread {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: 0;
+    max-height: 100%;
+    max-width: 50rem;
+  }
+  .menu_offers .steak {
+    position: absolute;
+    left: 0px;
+    bottom: -15rem;
+    z-index: 0;
+    max-height: 52.5rem;
+  }
+  .menu_offers ul {
+    position: relative;
+    z-index: 6;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 51.3rem 51.3rem;
+    grid-template-rows: 9.3rem 9.3rem 9.3rem 9.3rem;
+    gap: 2.3rem;
+  }
+  .menu_offers ul li {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 0rem 4.2rem;
+  }
+  .menu_offers ul li div h4 {
+    font-size: 2.5rem;
+    font-family: "Forum", cursive;
+    font-weight: 200;
+    margin: 0rem;
+  }
+  .menu_offers ul li div .subtitle_menu {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-top: 0.5rem;
+  }
+  .menu_offers ul li .prize {
+    font-size: 4.2rem;
+    font-family: "Forum", cursive;
+    font-weight: 400;
+    color: rgb(190, 161, 95);
+  }
+}
+@media only screen and (max-width: 410px) {
+  @font-face {
+    font-family: fa-brand-400;
+    src: url(/assets/font/fa-brands-400.woff2);
+  }
+  @font-face {
+    font-family: fa-light-300;
+    src: url(/assets/font/fa-light-300.woff2);
+  }
+  @font-face {
+    font-family: fa-regular-400;
+    src: url(/assets/font/fa-regular-400.woff2);
+  }
+  @font-face {
+    font-family: fa-solid-900;
+    src: url(/assets/font/fa-solid-900.woff2);
+  }
+  @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cinzel:wght@400;500;600;700;800;900&family=Forum&family=Frank+Ruhl+Libre:wght@300;400;500;600;700;800;900&family=Fraunces:wght@700;800;900&family=League+Spartan&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,800&family=Poppins&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=VT323&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cinzel:wght@400;500;600;700;800;900&family=Forum&family=Frank+Ruhl+Libre:wght@300;400;500;600;700;800;900&family=Fraunces:wght@700;800;900&family=League+Spartan&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,800&family=Poppins&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=VT323&display=swap");
+  nav {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2vw;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5rem;
+    list-style: none;
+  }
+  nav ul li a {
+    display: flex;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    font-size: 1.5rem;
+    padding-right: 2vw;
+  }
+  nav ul li a:hover {
+    color: rgb(190, 161, 95);
+    cursor: pointer;
+  }
+  nav ul li a:active {
+    color: rgb(190, 161, 95);
+  }
+  nav address a {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    font-size: 1.5rem;
+    padding-right: 2vw;
+  }
+  nav address a:hover {
+    color: rgb(190, 161, 95);
+    cursor: pointer;
+  }
+  nav address a i {
+    margin: auto;
+    padding-right: 0.75vw;
+  }
+  nav address a p {
+    padding-right: 2vw;
+  }
+  nav address button {
+    color: rgb(255, 255, 255);
+    background-color: rgb(190, 161, 95);
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    height: 5rem;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+  }
+  nav address button i {
+    padding-left: 1vw;
+  }
+  nav address button:hover {
+    color: rgb(190, 161, 95);
+    background-color: transparent;
+    cursor: pointer;
+  }
+  @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cinzel:wght@400;500;600;700;800;900&family=Forum&family=Frank+Ruhl+Libre:wght@300;400;500;600;700;800;900&family=Fraunces:wght@700;800;900&family=League+Spartan&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,800&family=Poppins&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=VT323&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cinzel:wght@400;500;600;700;800;900&family=Forum&family=Frank+Ruhl+Libre:wght@300;400;500;600;700;800;900&family=Fraunces:wght@700;800;900&family=League+Spartan&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,800&family=Poppins&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=VT323&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cinzel:wght@400;500;600;700;800;900&family=Forum&family=Frank+Ruhl+Libre:wght@300;400;500;600;700;800;900&family=Fraunces:wght@700;800;900&family=League+Spartan&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,800&family=Poppins&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=VT323&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cinzel:wght@400;500;600;700;800;900&family=Forum&family=Frank+Ruhl+Libre:wght@300;400;500;600;700;800;900&family=Fraunces:wght@700;800;900&family=League+Spartan&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,800&family=Poppins&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=VT323&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cinzel:wght@400;500;600;700;800;900&family=Forum&family=Frank+Ruhl+Libre:wght@300;400;500;600;700;800;900&family=Fraunces:wght@700;800;900&family=League+Spartan&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,800&family=Poppins&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=VT323&display=swap");
+}
+@media only screen and (max-width: 410px) and (max-width: 410px) {
+  :root {
+    font-size: 10px;
+    font-weight: 400;
+  }
+  body {
+    margin: 0rem;
+  }
+  header {
+    padding-bottom: 3rem;
+    background: linear-gradient(to bottom right, rgb(0, 0, 0), transparent), url("/assets/img/slider/img_bg_slider_home01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  header h1 {
+    position: relative;
+    color: white;
+    font-size: 8rem;
+    line-height: 150%;
+    letter-spacing: -0.45rem;
+    font-family: "Cinzel", serif;
+    font-weight: 100;
+    text-transform: uppercase;
+    padding: 6.25vw 0 0 6.25vw;
+    margin: 0px;
+  }
+  header h1 .bestQualityFoods {
+    position: absolute;
+    left: 40vw;
+    z-index: 0;
+    float: right;
+    padding-right: 5vw;
+    width: 30vw;
+  }
+  header .explore_menu {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    height: 5rem;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border: 1px solid grey;
+    margin: 3rem 0 0 12.5vw;
+  }
+  header .explore_menu i {
+    padding-left: 1vw;
+  }
+  header .explore_menu:hover {
+    color: rgb(190, 161, 95);
+    background-color: transparent;
+    cursor: pointer;
+  }
+  header nav ul {
+    display: none;
+  }
+  header nav address {
+    display: none;
+  }
+}
+@media only screen and (max-width: 410px) {
+  section.category {
+    margin: 0px;
+    padding: 3rem 0px 26rem;
+    background-image: url(/assets/img/banner/imgbgcategory.jpg);
+    background-size: contain;
+    background-color: rgb(250, 246, 240);
+    background-blend-mode: multiply;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  section.category .background_text_category {
+    position: absolute;
+    font-size: 7rem;
+    font-family: "Forum", cursive;
+    text-transform: uppercase;
+    color: rgb(245, 238, 227);
+    z-index: 0;
+  }
+  section.category h2 {
+    text-align: center;
+    z-index: 2;
+    font-family: "Forum", cursive;
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: none;
+  }
+  section.category h3 {
+    z-index: 2;
+    margin: 0px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    padding-bottom: 10.5rem;
+  }
+  section.category .category_cards {
+    display: inline-grid;
+    grid-template-columns: 80%;
+    gap: 2rem;
+  }
+  section.category .category_cards article {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 80vw;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    padding: 40px 15px 28px;
+  }
+  section.category .category_cards article span {
+    width: 50px;
+    height: 50px;
+  }
+  section.category .category_cards article span i {
+    font-size: 50px;
+    color: rgb(190, 161, 95);
+  }
+  section.category .category_cards article h6 {
+    font-family: "Forum", cursive;
+    line-height: 1.5em;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 0 11px;
+  }
+  section.category .category_cards article a {
+    color: rgb(29, 29, 29);
+    font-size: 15px;
+  }
+  @font-face {
+    font-family: fa-brand-400;
+    src: url(/assets/font/fa-brands-400.woff2);
+  }
+  @font-face {
+    font-family: fa-light-300;
+    src: url(/assets/font/fa-light-300.woff2);
+  }
+  @font-face {
+    font-family: fa-regular-400;
+    src: url(/assets/font/fa-regular-400.woff2);
+  }
+  @font-face {
+    font-family: fa-solid-900;
+    src: url(/assets/font/fa-solid-900.woff2);
+  }
+  .why_us div {
+    background-image: url(/assets/img/banner/imgbgcategory.jpg);
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .why_us div .small_why_us_image {
+    max-width: 100vw;
+    padding-top: 5rem;
+  }
+  .why_us div .salad {
+    max-width: 100vw;
+    border-radius: 50%;
+  }
+  .why_us .about_us_titles {
+    padding: 10vw 0vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .why_us .about_us_titles .background_text_category {
+    position: absolute;
+    font-size: 7rem;
+    font-family: "Forum", cursive;
+    text-transform: uppercase;
+    color: rgb(245, 238, 227);
+    z-index: 0;
+  }
+  .why_us .about_us_titles h2 {
+    text-align: center;
+    z-index: 2;
+    font-family: "Forum", cursive;
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: none;
+  }
+  .why_us .about_us_titles h3 {
+    z-index: 2;
+    margin: 0px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    padding-bottom: 10.5rem;
+  }
+  .why_us .about_us_titles .background_text_category {
+    position: absolute;
+    z-index: 0;
+  }
+  .why_us .about_us_titles .about_us_smaller_titles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .why_us .about_us_titles .about_us_smaller_titles h3 {
+    padding: 0px;
+  }
+  .why_us .about_us_titles .about_us_smaller_titles h2 {
+    margin: 0px;
+  }
+  .why_us .about_us_titles img {
+    display: none;
+  }
+  .why_us article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10.5rem;
+    padding-top: 5rem;
+  }
+  .why_us article img {
+    width: 38.5rem;
+    padding-right: 6.3rem;
+  }
+  .why_us article span p {
+    width: 38.5rem;
+    font-family: "Forum", cursive;
+    font-size: 2.5rem;
+    font-weight: 400;
+    line-height: 150%;
+  }
+  .why_us article span button {
+    color: rgb(255, 255, 255);
+    background-color: rgb(190, 161, 95);
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    height: 5rem;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+  }
+  .why_us article span button i {
+    padding-left: 1vw;
+  }
+  .why_us article span button:hover {
+    color: rgb(190, 161, 95);
+    background-color: transparent;
+    cursor: pointer;
+  }
+  #restaurant_gallery_photo {
+    padding-top: 3.0792917629vw;
+    padding-bottom: 3.0792917629vw;
+    text-align: center;
+  }
+  #restaurant_gallery_photo h2 {
+    font-size: 6vw;
+  }
+  #restaurant_gallery_photo p {
+    font-size: large;
+  }
+  #restaurant_gallery_photo .grid-container {
+    display: flex;
+    flex-direction: column;
+  }
+  #restaurant_gallery_photo .grid-container img {
+    padding: 3vw;
+  }
+  #restaurant_gallery_photo .grid-container img:hover {
+    opacity: 0.5;
+  }
+  #restaurant_gallery_photo ul li {
+    list-style-type: none;
+  }
+  #restaurant_gallery_photo button {
+    background-color: rgb(255, 255, 255);
+    border-style: none;
+    border: 0.1539645881vw solid rgb(245, 238, 227);
+    width: 30vw;
+    height: 15vw;
+  }
+  #restaurant_gallery_photo button i {
+    padding-left: 0.3849114704vw;
+  }
+  #restaurant_gallery_photo button:hover {
+    background-color: rgb(190, 161, 95);
+    color: rgb(255, 255, 255);
+  }
+  #our_chefs {
+    background-image: url("/assets/img/our-chefs/imgbg-ourchefs.jpg");
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+  #our_chefs h2 {
+    font-size: 6vw;
+  }
+  #our_chefs p {
+    font-size: larger;
+  }
+  #our_chefs ul {
+    display: flex;
+    flex-direction: column;
+  }
+  #our_chefs ul li {
+    list-style: none;
+  }
+  #our_chefs ul li img {
+    width: 70vw;
+    height: 70vw;
+    padding-top: 5vw;
+  }
+  @font-face {
+    font-family: fa-brand-400;
+    src: url(/assets/font/fa-brands-400.woff2);
+  }
+  @font-face {
+    font-family: fa-light-300;
+    src: url(/assets/font/fa-light-300.woff2);
+  }
+  @font-face {
+    font-family: fa-regular-400;
+    src: url(/assets/font/fa-regular-400.woff2);
+  }
+  @font-face {
+    font-family: fa-solid-900;
+    src: url(/assets/font/fa-solid-900.woff2);
+  }
+  #latest_news {
+    text-align: center;
+    padding-top: 5vw;
+  }
+  #latest_news h2 {
+    font-size: 6vw;
+  }
+  #latest_news p {
+    font-size: large;
+  }
+  #latest_news li {
+    list-style-type: none;
+  }
+  #latest_news .brand_img {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5vw;
+  }
+  #latest_news .brand_img li img {
+    height: 10vw;
+  }
+  #latest_news button {
+    width: 20vw;
+    height: 8vw;
+    border-style: none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1rem;
+    font-size: 2vw;
+    margin: 5vw;
+    /*  & i {
+          padding-left: 1rem;
+      } */
+  }
+  #latest_news button:hover {
+    background-color: rgb(190, 161, 95);
+  }
+  #latest_news .img_info_button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #latest_news .img_info_button span {
+    display: flex;
+    justify-content: space-around;
+  }
+  #latest_news .img_info_button_1 {
+    justify-content: flex-start;
+    background-color: rgb(245, 238, 227);
+  }
+  #latest_news .img_info_button_2 {
+    justify-content: center;
+    background-color: rgb(245, 238, 227);
+  }
+  #latest_news .img_info_button_3 {
+    justify-content: flex-end;
+    background-color: rgb(245, 238, 227);
+  }
+  #latest_news .img_info_button img {
+    align-items: center;
+    justify-content: center;
+    width: 85vw;
+    height: 60vw;
+  }
+  @font-face {
+    font-family: fa-brand-400;
+    src: url(/assets/font/fa-brands-400.woff2);
+  }
+  @font-face {
+    font-family: fa-light-300;
+    src: url(/assets/font/fa-light-300.woff2);
+  }
+  @font-face {
+    font-family: fa-regular-400;
+    src: url(/assets/font/fa-regular-400.woff2);
+  }
+  @font-face {
+    font-family: fa-solid-900;
+    src: url(/assets/font/fa-solid-900.woff2);
+  }
+  footer {
+    font-size: larger;
+    color: white;
+    background-image: url("/assets/img/footer/img-ng-footer.jpg");
+    padding-top: 2rem;
+    /*   & ul > li span {
+       i { 
+        background-color: $color-text-3;
+
+       }
+    } */
+  }
+  footer img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  footer .top_img {
+    margin: auto;
+    height: 15vw;
+  }
+  footer section .logo_cuilleur_foot {
+    height: 20vw;
+  }
+  footer i {
+    width: 2vw;
+    height: 2vw;
+  }
+  footer ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+  }
+  footer ul .input_list_element {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    height: 5vw;
+  }
+  footer ul .input_list_element input {
+    height: 10vw;
+    width: 50vw;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  footer ul .input_list_element button {
+    background-color: rgb(190, 161, 95);
+    height: 10vw;
+    width: 10vw;
+    border: none;
+  }
+  footer ul .input_list_element button .fa-arrow-right {
+    margin-top: 30%;
+  }
+  footer li {
+    padding: 2%;
+  }
+  footer .foot_info {
+    display: flex;
+    flex-direction: column;
+  }
+  footer .foot_copy_social {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  footer .social_foot {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  footer hr {
+    width: 88vw;
+  }
+}
+
+/*# sourceMappingURL=css.map */

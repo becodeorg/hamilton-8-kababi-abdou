@@ -1,0 +1,39 @@
+
+#restaurant_gallery_photo {
+    padding-top: 3.079291762894534vw;
+    padding-bottom: 3.079291762894534vw;
+    text-align: center;
+    & h2 {
+        font-size: 6vw;
+    }
+    & p {
+        font-size: large;
+    }
+    & .grid-container {
+        display: flex;
+        flex-direction: column;
+        & img {
+            padding: 3vw;
+        }
+        & img:hover{
+            opacity: 0.5;
+        }
+    }
+    & ul li {
+        list-style-type: none;
+    }
+    & button {
+        background-color: $color-first;
+        border-style: none; 
+        border:  0.15396458814472672vw solid $color-text-4;
+        width: 30vw;
+        height: 15vw;
+        & i {
+            padding-left: 0.3849114703618168vw;
+        }
+    }
+    & button:hover {
+        background-color: $color-text-3;
+        color: $color-first;
+    }
+}

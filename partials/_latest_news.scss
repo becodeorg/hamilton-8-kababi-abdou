@@ -2,9 +2,21 @@
 @import "colors";
 
 
+
 #latest_news {
     text-align: center;
     padding-top: 5vw;
+    
+    & .background_text_gallery_latest_news {
+        position: absolute;
+        left: 1.5rem;
+        font-size: 15rem;
+        font-family: "Forum", cursive;
+        text-transform: uppercase;
+        color: rgb(245, 238, 227);
+        z-index: 0;
+    }
+    
 
     & h2 {
         font-size: 2vw;  

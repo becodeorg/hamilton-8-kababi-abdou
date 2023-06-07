@@ -255,6 +255,15 @@
     text-align: center;
     padding-top: 5vw;
   }
+  #latest_news .background_text_gallery_latest_news {
+    position: absolute;
+    left: 1.5rem;
+    font-size: 15rem;
+    font-family: "Forum", cursive;
+    text-transform: uppercase;
+    color: rgb(245, 238, 227);
+    z-index: 0;
+  }
   #latest_news h2 {
     font-size: 2vw;
   }
@@ -419,6 +428,15 @@
     height: 50vw;
     padding-top: 8vw;
   }
+  #our_chefs .background_text_gallery_our_chefs {
+    position: absolute;
+    left: 1.5rem;
+    font-size: 15rem;
+    font-family: "Forum", cursive;
+    text-transform: uppercase;
+    color: rgb(245, 238, 227);
+    z-index: 0;
+  }
   #our_chefs h2 {
     font-size: 2vw;
   }
@@ -557,11 +575,22 @@
     padding-bottom: 3.0792917629vw;
     text-align: center;
   }
+  #restaurant_gallery_photo .background_text_gallery {
+    position: absolute;
+    left: 1.5rem;
+    font-size: 15rem;
+    font-family: "Forum", cursive;
+    text-transform: uppercase;
+    color: rgb(245, 238, 227);
+    z-index: 0;
+  }
   #restaurant_gallery_photo h2 {
     font-size: 2vw;
+    font-family: "Cinzel", serif;
   }
   #restaurant_gallery_photo p {
     font-size: large;
+    font-family: "Cinzel", serif;
   }
   #restaurant_gallery_photo .grid-container {
     display: grid;
@@ -779,6 +808,8 @@
     background-color: transparent;
     cursor: pointer;
   }
+  @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cinzel:wght@400;500;600;700;800;900&family=Forum&family=Frank+Ruhl+Libre:wght@300;400;500;600;700;800;900&family=Fraunces:wght@700;800;900&family=League+Spartan&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,800&family=Poppins&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=VT323&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cinzel:wght@400;500;600;700;800;900&family=Forum&family=Frank+Ruhl+Libre:wght@300;400;500;600;700;800;900&family=Fraunces:wght@700;800;900&family=League+Spartan&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,800&family=Poppins&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=VT323&display=swap");
   @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cinzel:wght@400;500;600;700;800;900&family=Forum&family=Frank+Ruhl+Libre:wght@300;400;500;600;700;800;900&family=Fraunces:wght@700;800;900&family=League+Spartan&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,800&family=Poppins&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=VT323&display=swap");
   @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cinzel:wght@400;500;600;700;800;900&family=Forum&family=Frank+Ruhl+Libre:wght@300;400;500;600;700;800;900&family=Fraunces:wght@700;800;900&family=League+Spartan&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,800&family=Poppins&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=VT323&display=swap");
   @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cinzel:wght@400;500;600;700;800;900&family=Forum&family=Frank+Ruhl+Libre:wght@300;400;500;600;700;800;900&family=Fraunces:wght@700;800;900&family=League+Spartan&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,800&family=Poppins&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=VT323&display=swap");
@@ -1044,6 +1075,243 @@
     color: rgb(190, 161, 95);
     background-color: transparent;
     cursor: pointer;
+  }
+  #restaurant_gallery_photo {
+    padding-top: 3.0792917629vw;
+    padding-bottom: 3.0792917629vw;
+    text-align: center;
+  }
+  #restaurant_gallery_photo h2 {
+    font-size: 6vw;
+  }
+  #restaurant_gallery_photo p {
+    font-size: large;
+  }
+  #restaurant_gallery_photo .grid-container {
+    display: flex;
+    flex-direction: column;
+  }
+  #restaurant_gallery_photo .grid-container img {
+    padding: 3vw;
+  }
+  #restaurant_gallery_photo .grid-container img:hover {
+    opacity: 0.5;
+  }
+  #restaurant_gallery_photo ul li {
+    list-style-type: none;
+  }
+  #restaurant_gallery_photo button {
+    background-color: rgb(255, 255, 255);
+    border-style: none;
+    border: 0.1539645881vw solid rgb(245, 238, 227);
+    width: 30vw;
+    height: 15vw;
+  }
+  #restaurant_gallery_photo button i {
+    padding-left: 0.3849114704vw;
+  }
+  #restaurant_gallery_photo button:hover {
+    background-color: rgb(190, 161, 95);
+    color: rgb(255, 255, 255);
+  }
+  #our_chefs {
+    background-image: url("/assets/img/our-chefs/imgbg-ourchefs.jpg");
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+  #our_chefs h2 {
+    font-size: 6vw;
+  }
+  #our_chefs p {
+    font-size: larger;
+  }
+  #our_chefs ul {
+    display: flex;
+    flex-direction: column;
+  }
+  #our_chefs ul li {
+    list-style: none;
+  }
+  #our_chefs ul li img {
+    width: 70vw;
+    height: 70vw;
+    padding-top: 5vw;
+  }
+  @font-face {
+    font-family: fa-brand-400;
+    src: url(/assets/font/fa-brands-400.woff2);
+  }
+  @font-face {
+    font-family: fa-light-300;
+    src: url(/assets/font/fa-light-300.woff2);
+  }
+  @font-face {
+    font-family: fa-regular-400;
+    src: url(/assets/font/fa-regular-400.woff2);
+  }
+  @font-face {
+    font-family: fa-solid-900;
+    src: url(/assets/font/fa-solid-900.woff2);
+  }
+  #latest_news {
+    text-align: center;
+    padding-top: 5vw;
+  }
+  #latest_news h2 {
+    font-size: 6vw;
+  }
+  #latest_news p {
+    font-size: large;
+  }
+  #latest_news li {
+    list-style-type: none;
+  }
+  #latest_news .brand_img {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5vw;
+  }
+  #latest_news .brand_img li img {
+    height: 10vw;
+  }
+  #latest_news button {
+    width: 20vw;
+    height: 8vw;
+    border-style: none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1rem;
+    font-size: 2vw;
+    margin: 5vw;
+    /*  & i {
+          padding-left: 1rem;
+      } */
+  }
+  #latest_news button:hover {
+    background-color: rgb(190, 161, 95);
+  }
+  #latest_news .img_info_button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #latest_news .img_info_button span {
+    display: flex;
+    justify-content: space-around;
+  }
+  #latest_news .img_info_button_1 {
+    justify-content: flex-start;
+    background-color: rgb(245, 238, 227);
+  }
+  #latest_news .img_info_button_2 {
+    justify-content: center;
+    background-color: rgb(245, 238, 227);
+  }
+  #latest_news .img_info_button_3 {
+    justify-content: flex-end;
+    background-color: rgb(245, 238, 227);
+  }
+  #latest_news .img_info_button img {
+    align-items: center;
+    justify-content: center;
+    width: 85vw;
+    height: 60vw;
+  }
+  @font-face {
+    font-family: fa-brand-400;
+    src: url(/assets/font/fa-brands-400.woff2);
+  }
+  @font-face {
+    font-family: fa-light-300;
+    src: url(/assets/font/fa-light-300.woff2);
+  }
+  @font-face {
+    font-family: fa-regular-400;
+    src: url(/assets/font/fa-regular-400.woff2);
+  }
+  @font-face {
+    font-family: fa-solid-900;
+    src: url(/assets/font/fa-solid-900.woff2);
+  }
+  footer {
+    font-size: larger;
+    color: white;
+    background-image: url("/assets/img/footer/img-ng-footer.jpg");
+    padding-top: 2rem;
+    /*   & ul > li span {
+       i { 
+        background-color: $color-text-3;
+
+       }
+    } */
+  }
+  footer img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  footer .top_img {
+    margin: auto;
+    height: 15vw;
+  }
+  footer section .logo_cuilleur_foot {
+    height: 20vw;
+  }
+  footer i {
+    width: 2vw;
+    height: 2vw;
+  }
+  footer ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+  }
+  footer ul .input_list_element {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    height: 5vw;
+  }
+  footer ul .input_list_element input {
+    height: 10vw;
+    width: 50vw;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  footer ul .input_list_element button {
+    background-color: rgb(190, 161, 95);
+    height: 10vw;
+    width: 10vw;
+    border: none;
+  }
+  footer ul .input_list_element button .fa-arrow-right {
+    margin-top: 30%;
+  }
+  footer li {
+    padding: 2%;
+  }
+  footer .foot_info {
+    display: flex;
+    flex-direction: column;
+  }
+  footer .foot_copy_social {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  footer .social_foot {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  footer hr {
+    width: 88vw;
   }
   .menu_offers {
     background-color: rgb(250, 246, 240);
